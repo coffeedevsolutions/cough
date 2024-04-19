@@ -1,0 +1,13 @@
+.backButtonContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: transparent;
+    width: 1080px;
+    margin: auto;
+    margin-top: 120px; 
+}
+
+.backButton {
+    cursor: pointer;
+}
