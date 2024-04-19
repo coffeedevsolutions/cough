@@ -13,9 +13,9 @@ function AppContent() {
   return (
     <div className="App">
       <Routes>
-        <Route path="/" element={<Header />} />
+        <Route path="/Header" element={<Header />} />
         <Route path="/essays" element={<Essays />} />
-        <Route path="/home" element={<Home />} />
+        <Route path="/" element={<Home />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/taste" element={<Taste />} />
         <Route path="/essays/work-life-balance" element={<WorkLifeBalance />} />

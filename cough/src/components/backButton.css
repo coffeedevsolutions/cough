@@ -9,5 +9,17 @@
 }
 
 .backButton {
+    font-family: "fractul-variable", sans-serif;
+    font-variation-settings: "wght" 400;
     cursor: pointer;
+}
+
+@keyframes x-hop {
+    0% { transform: translatex(0); }
+    50% { transform: translatex(-5px); }
+    100% { transform: translatex(0); }
+}
+
+.backButton:hover {
+    animation: x-hop 0.4s;
 }

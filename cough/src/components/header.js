@@ -7,7 +7,10 @@ const Header = () => {
 
     return (
         <header className="header">
-            <div className="headerContainer">
+            <div 
+                className="headerContainer"
+                onClick={() => navigate('/')}
+                >
                 <h1 className="headerMain1">Cough</h1>
                 <h1 className="headerMain2">Cough</h1>
                 <h1 className="headerMain3">Cough</h1>  
@@ -17,7 +20,7 @@ const Header = () => {
 
             <nav className="navbar">
                 <ul className="nav-list">
-                    <li className="nav-item"><a onClick={() => navigate('/Home')} className="nav-link">Home</a></li>
+                    <li className="nav-item"><a onClick={() => navigate('/')} className="nav-link">Home</a></li>
                     <li className="nav-item"><a onClick={() => navigate('/Essays')} className="nav-link">Essays</a></li>
                     <li className="nav-item"><a onClick={() => navigate('/Projects')} className="nav-link">Projects</a></li>
                     <li className="nav-item"><a onClick={() => navigate('/Taste')} className="nav-link">Taste</a></li>
