@@ -17,7 +17,7 @@ const Essays = () => {
                 <p className="essaySubHeader">Taking a crack at it.</p>
             </div>
             <div className="essayGrid">
-                <div 
+                {/* <div 
                     className="essayBox"
                     onClick={() => navigate('/essays/work-life-balance')}
                     >
@@ -30,7 +30,7 @@ const Essays = () => {
                     <div className="essayDate">
                         <p className="essayDateText">April 2024</p>
                     </div>
-                </div>
+                </div> */}
                 <div 
                     className="essayBox"
                     onClick={() => navigate('/essays/chatgpt-coding')}
@@ -45,9 +45,9 @@ const Essays = () => {
                         <p className="essayDateText">April 2024</p>
                     </div>
                 </div>
-                <div className="essayBox">Essay 3</div>
+                {/* <div className="essayBox">Essay 3</div>
                 <div className="essayBox">Essay 4</div>
-                <div className="essayBox">Essay 5</div>
+                <div className="essayBox">Essay 5</div> */}
             </div>
         </div>  
     </div>
