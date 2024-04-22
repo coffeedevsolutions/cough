@@ -20,10 +20,11 @@ const Header = () => {
 
             <nav className="navbar">
                 <ul className="nav-list">
-                    <li className="nav-item"><a onClick={() => navigate('/')} className="nav-link">Home</a></li>
-                    <li className="nav-item"><a onClick={() => navigate('/Essays')} className="nav-link">Essays</a></li>
-                    <li className="nav-item"><a onClick={() => navigate('/Projects')} className="nav-link">Projects</a></li>
-                    <li className="nav-item"><a onClick={() => navigate('/Taste')} className="nav-link">Taste</a></li>
+                    <li className="nav-item"><div onClick={() => navigate('/')} className="nav-link">Home</div></li>
+                    <li className="nav-item"><div onClick={() => navigate('/Links')} className="nav-link">Links</div></li>
+                    <li className="nav-item"><div onClick={() => navigate('/Essays')} className="nav-link">Essays</div></li>
+                    <li className="nav-item"><div onClick={() => navigate('/Projects')} className="nav-link">Projects</div></li>
+                    <li className="nav-item"><div onClick={() => navigate('/Taste')} className="nav-link">Taste</div></li>
                 </ul>
             </nav>
         </header>

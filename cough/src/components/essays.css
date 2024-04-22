@@ -68,3 +68,15 @@
     margin-top: 10px;
     font-size: 16px;
 }
+
+.essayDate {
+
+}
+
+.essayDateText {
+    font-family: "fractul-variable", sans-serif;
+    font-variation-settings: "wght" 400;
+    text-align: left;
+    margin-top: 10px;
+    font-size: 14px;
+}

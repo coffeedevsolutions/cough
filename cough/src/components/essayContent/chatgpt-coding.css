@@ -1,0 +1,8 @@
+.essayContent {
+    text-align: left;
+}
+
+.noteSection {
+    border-left: 2px solid #000; /* Change the color as needed */
+    padding-left: 10px; /* Adjust the space between the bar and the text */
+}
