@@ -9,7 +9,7 @@ const Essays = () => {
   return (
     <div className="essays">
         <Header />
-        <div className="essayContent">
+        <div className="essayFiller">
             <div className="essayHeaderContainer">
                 <h1 className="essayHeader">Essays</h1>
             </div>
