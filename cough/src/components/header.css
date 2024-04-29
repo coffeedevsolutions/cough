@@ -93,3 +93,65 @@
     box-shadow: 8px 8px 0px rgba(0,0,0,0.3);
     background-color: #e7e7e7;
 }
+
+.navbar-mobile {
+    display: none;
+}
+
+@media only screen and (max-width: 600px) {
+    /* Styles for mobile devices */
+    .header {
+        width: 100%;
+    }
+
+    .headerMain1, .headerMain2, .headerMain3, .headerMain4, .headerMain5 {
+        display: none;
+    }
+
+    .nav-link {
+        font-family: "aquatronik-variable", sans-serif;
+        font-variation-settings: "wdth" 150;
+        color: #0e0800;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        font-size: 1rem; /* Decrease the font size */
+        padding-left: 0px; /* Decrease the left padding */
+        padding-right: 0px; /* Decrease the right padding */
+    }
+
+    .navbar {
+        display: none;
+    }
+    .navbar-mobile {
+        display: block;
+        margin-top: 5px;
+        margin-left: 0px;
+    }
+
+    .navlink-mobile {
+        width: 20%;
+    }
+
+    .navlist-mobile {
+        display: flex;
+        justify-content: space-around;
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .header {
+        padding: 0;
+        margin-top: 0px;
+    }
+
+    .home-header {
+        margin: 0px;
+    }
+
+  }
+  
+  @media only screen and (min-width: 601px) and (max-width: 1024px) {
+    /* Styles for tablet devices */
+
+  }
