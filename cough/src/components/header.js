@@ -36,13 +36,13 @@ const Header = () => {
                     onClick={() => navigate('/')} 
                     />
                     <img 
-                    src={`${process.env.PUBLIC_URL}/images/Links.png`} 
+                    src={`${process.env.PUBLIC_URL}/images/LINKS.png`} 
                     alt="Links" 
                     className="navlink-mobile" 
                     onClick={() => navigate('/Links')} 
                     />
                     <img 
-                    src={`${process.env.PUBLIC_URL}/images/Essays.png`} 
+                    src={`${process.env.PUBLIC_URL}/images/ESSAYS.png`} 
                     alt="Essays" 
                     className="navlink-mobile" 
                     onClick={() => navigate('/Essays')} 
