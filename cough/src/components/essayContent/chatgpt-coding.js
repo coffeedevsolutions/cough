@@ -1,5 +1,4 @@
 import React from "react";
-import Header from "../header";
 import "./chatgpt-coding.css";
 import BackButton from "../backButton";
 
@@ -46,7 +45,6 @@ const ChatgptCoding = () => {
 
     return (
         <div>
-            <Header />
             <BackButton />
             <div className="essayText">
                 <div className="essayTitle">
