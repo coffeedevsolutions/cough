@@ -53,6 +53,10 @@
     color: #D95323
 }
 
+.header-art {
+    display: none;
+}
+
 .navbar {
     flex-grow: 1;
     margin-left: 25px;
@@ -101,6 +105,11 @@
 @media only screen and (max-width: 600px) {
     /* Styles for mobile devices */
     .header {
+        width: 100%;
+    }
+
+    .header-art {
+        display: block;
         width: 100%;
     }
 

@@ -107,3 +107,60 @@
 .linkBox:hover {
     color: inherit; /* Inherits color from parent element on hover */
 }
+
+@media only screen and (max-width: 600px) {
+    /* Styles for mobile devices */
+    .linkContent {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        background-color: transparent;
+        width: 100%;
+        margin: auto;
+        margin-top: 50px; 
+        margin-bottom: 25px;
+    }
+
+    .linkHeaderContainer, .linkSubHeaderContainer{
+        margin-left: 15px;
+    }
+
+    .linkBox {
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+        height: auto;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    
+    .linkGrid {
+        margin-left: 0px;
+        margin-right: 0px;
+        width: 85%;
+    }
+
+    .linkUrl {
+        font-family: "fractul-variable", sans-serif;
+        font-variation-settings: "wght" 400;
+        text-align: left;
+        margin-top: 10px;
+        font-size: 10px;
+    }
+
+    .linkDescription {
+        font-family: "fractul-variable", sans-serif;
+        font-variation-settings: "wght" 400;
+        text-align: left;
+        margin-top: 20px;
+        font-size: 14px;
+        line-height: 1.2;
+        width: 100%;
+    }
+
+  }
+  
+  @media only screen and (min-width: 601px) and (max-width: 1024px) {
+    /* Styles for tablet devices */
+
+  }

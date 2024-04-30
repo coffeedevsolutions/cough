@@ -1,5 +1,4 @@
 import React from "react";
-import Header from "./header";
 import "./essays.css";
 import { useNavigate } from "react-router-dom";
 
@@ -8,7 +7,6 @@ const Essays = () => {
 
   return (
     <div className="essays">
-        <Header />
         <div className="essayFiller">
             <div className="essayHeaderContainer">
                 <h1 className="essayHeader">Essays</h1>

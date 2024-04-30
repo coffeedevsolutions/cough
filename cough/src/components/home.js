@@ -1,5 +1,4 @@
 import React from "react";
-import Header from "./header";
 import "./home.css";
 import { useNavigate } from "react-router-dom";
 
@@ -95,7 +94,6 @@ function Home() {
 
   return (
     <div className="mobile-home">
-        <Header />
         <div className="home-container">
           <pre className="tree">{asciiTree}</pre>
           <div className="header-container">

@@ -7,3 +7,33 @@
     border-left: 2px solid #000; /* Change the color as needed */
     padding-left: 10px; /* Adjust the space between the bar and the text */
 }
+
+@media only screen and (max-width: 600px) {
+    /* Styles for mobile devices */
+    .essayText {
+        width: 100%;
+        overflow: hidden;
+    }
+    
+    .essayContent {
+        text-align: left;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .backButtonContainer {
+        width: 100%;
+        margin-left: 10px;
+        margin-top: 50px;
+    }
+
+    .essayTitle, .essaySubTitle {
+        margin-left: 10px;
+    }
+
+  }
+  
+  @media only screen and (min-width: 601px) and (max-width: 1024px) {
+    /* Styles for tablet devices */
+
+  }

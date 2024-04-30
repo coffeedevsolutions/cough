@@ -1,5 +1,4 @@
 import React from "react";
-import Header from "./header";
 import "./links.css";
 
 function Links() {
@@ -24,7 +23,6 @@ function Links() {
 
   return (
     <div>
-        <Header />
         <div className="linkContent">
             <div className="linkHeaderContainer">
                 <h1 className="linkHeader">Links</h1>

@@ -15,6 +15,7 @@ import ChatgptCoding from './components/essayContent/chatgpt-coding';
 function AppContent() {
   return (
     <div className="App">
+      <Header />
       <Routes>
         <Route path="/Header" element={<Header />} />
         <Route path="/essays" element={<Essays />} />
